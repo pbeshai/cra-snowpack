@@ -29,6 +29,22 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+    <!-- 
+      add entry for snowpack, only used in dev, it is pruned in production.
+    -->
+    <script>
+      if ('%MODE%' === 'development') {
+        (function() { 
+          console.log('[dev] injecting snowpack entry')
+          var snowpackEntryScript = document.createElement('script');
+          snowpackEntryScript.setAttribute('type', 'module');
+          snowpackEntryScript.setAttribute('src', '/_dist_/index.js');
+          document.head.appendChild(snowpackEntryScript);
+        }())
+      }
+    </script>
+
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
