@@ -4,6 +4,7 @@ A stock CRA app modified to use [snowpack](https://snowpack.dev) during developm
 
 See [the PR](https://github.com/pbeshai/cra-snowpack/pull/1/files) for all the changes.
 
+See [the blog post](https://peterbeshai.com/blog/2020-10-22-cra-snowpack/) for details.
 
 ---
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
