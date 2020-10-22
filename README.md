@@ -1,3 +1,11 @@
+# Snowpack ❤️ Create-React-App
+
+A stock CRA app modified to use [snowpack](https://snowpack.dev) during development for faster rebuilds.
+
+See [the PR](https://github.com/pbeshai/cra-snowpack/pull/1/files) for all the changes.
+
+
+---
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
